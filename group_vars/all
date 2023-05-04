@@ -1,0 +1,7 @@
+---
+
+acme_root: /etc/letsencrypt
+acme_endpoint: "https://acme.sectigo.com/v2/OV"
+acme_email: ling-admin@listat.csc.fi
+acme_keyid: "{{ lookup('passwordstore', 'lb_passwords/portal/acme_keyid') }}"
+acme_hmac: "{{ lookup('passwordstore', 'lb_passwords/portal/acme_hmac') }}"

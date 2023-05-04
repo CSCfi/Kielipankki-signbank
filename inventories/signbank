@@ -1,0 +1,1 @@
+signbank ansible_host=signbank.csc.fi ansible_user=cloud-user
